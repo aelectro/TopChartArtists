@@ -1,0 +1,66 @@
+/* Styles */
+body {
+  background-color: #F8FAFB !important;
+}
+
+#app {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  min-width: 550px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.headerNavigation, .artistContainer, .albumsButton {
+  margin: 15px 0 0;
+}
+
+.itemsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+  grid-gap: 18px;
+  margin: 25px 0;
+}
+
+.listItem {
+  width: 160px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.itemName {
+  background-color: white;
+  padding: 10px;
+}
+
+.itemName a {
+  color: #4E505D;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.searchContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.searchContainer .form-group {
+  margin: 0;
+  width: 250px;
+}
+
+.searchButton {
+  width: 119px;
+  height: 33px;
+  margin: 0 0 0 10px;
+}
+
+.artistPhoto {
+  margin: 0 15px 0 0;
+  float: left;
+}
+
+.albumsFilter {
+  width: 250px;
+}
